@@ -5,9 +5,11 @@
 
 ### Windows OS ###
 /.idea/
+/target/
 
 ### Mac OS ###
 \.idea\
+\target\
 .DS_Store
 *DS_Store
 */DS_Store
