@@ -59,9 +59,10 @@ public class VerifyLogin {
         Thread.sleep(1000);
     }
 
-    @AfterClass
-    public void tearDown() throws Exception {
-        //Quit the program
-        driver.quit();
+    @AfterTest
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
